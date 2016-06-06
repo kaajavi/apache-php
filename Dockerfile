@@ -1,5 +1,5 @@
-FROM ubuntu:trusty
-MAINTAINER Fernando Mayo <fernando@tutum.co>
+FROM ubuntu:precise
+MAINTAINER Javier Guignard <javierguignard@gmail.com>
 
 # Install base packages
 RUN apt-get update && \
@@ -9,6 +9,7 @@ RUN apt-get update && \
         libapache2-mod-php5 \
         php5-mysql \
         php5-mcrypt \
+        php5-gd \
         php5-gd \
         php5-curl \
         php-pear \
